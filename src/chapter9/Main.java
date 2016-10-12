@@ -104,6 +104,16 @@ public class Main {
 
     }
 
+    public static void mapDemo2() {
+        HashMap<String, String> map = new HashMap<>();
+        for (int i = 0; i < 5; i++) {
+            map.put(String.valueOf(i),String.valueOf(i*i));
+        }
+        for(Map.Entry<String,String> entry : map.entrySet()){
+            System.out.println(entry.getKey() + entry.getValue());
+        }
+    }
+
     public static void setDemo() {
         HashSet<String> strSet = new HashSet<>();
         for (int i = 0; i < 4; i++) {
