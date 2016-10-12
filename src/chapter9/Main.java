@@ -20,6 +20,7 @@ public class Main {
         print(6, str.contains("!!!"));
         print(7, str.toUpperCase());
         print(8, str.endsWith("e"));
+        print(9, str.startsWith("a"));
         print(9, str.replace("2", "fuck"));
         print(9, str.replaceAll("2|45", "fuck"));
 
