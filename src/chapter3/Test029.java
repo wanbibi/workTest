@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 /**
  * for循环排序
- * 
- * @author wan.z.c
- *
- */
+		 *
+		 * @author wan.z.c
+		*
+		*/
 public class Test029 {
 	public static void main(String[] args) {
 		int[] a = { 0, 0, 0 };
@@ -18,7 +18,7 @@ public class Test029 {
 		for (int i = 0; i < a.length; i++) {
 			a[i] = scanner.nextInt();
 		}
-		
+
 		Arrays.sort(a);
 		for (int i : a) {
 			System.out.print(i + " ");
